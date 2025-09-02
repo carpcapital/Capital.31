@@ -6,126 +6,126 @@
 ## Main toolbar buttons (tooltips and alt text for images)
 
 pdfjs-previous-button =
-    .title = דף קודם
-pdfjs-previous-button-label = קודם
+    .title = Προηγούμενη σελίδα
+pdfjs-previous-button-label = Προηγούμενη
 pdfjs-next-button =
-    .title = דף הבא
-pdfjs-next-button-label = הבא
+    .title = Επόμενη σελίδα
+pdfjs-next-button-label = Επόμενη
 # .title: Tooltip for the pageNumber input.
 pdfjs-page-input =
-    .title = דף
+    .title = Σελίδα
 # Variables:
 #   $pagesCount (Number) - the total number of pages in the document
 # This string follows an input field with the number of the page currently displayed.
-pdfjs-of-pages = מתוך { $pagesCount }
+pdfjs-of-pages = από { $pagesCount }
 # Variables:
 #   $pageNumber (Number) - the currently visible page
 #   $pagesCount (Number) - the total number of pages in the document
-pdfjs-page-of-pages = ({ $pageNumber } מתוך { $pagesCount })
+pdfjs-page-of-pages = ({ $pageNumber } από { $pagesCount })
 pdfjs-zoom-out-button =
-    .title = התרחקות
-pdfjs-zoom-out-button-label = התרחקות
+    .title = Σμίκρυνση
+pdfjs-zoom-out-button-label = Σμίκρυνση
 pdfjs-zoom-in-button =
-    .title = התקרבות
-pdfjs-zoom-in-button-label = התקרבות
+    .title = Μεγέθυνση
+pdfjs-zoom-in-button-label = Μεγέθυνση
 pdfjs-zoom-select =
-    .title = מרחק מתצוגה
+    .title = Ζουμ
 pdfjs-presentation-mode-button =
-    .title = מעבר למצב מצגת
-pdfjs-presentation-mode-button-label = מצב מצגת
+    .title = Εναλλαγή σε λειτουργία παρουσίασης
+pdfjs-presentation-mode-button-label = Λειτουργία παρουσίασης
 pdfjs-open-file-button =
-    .title = פתיחת קובץ
-pdfjs-open-file-button-label = פתיחה
+    .title = Άνοιγμα αρχείου
+pdfjs-open-file-button-label = Άνοιγμα
 pdfjs-print-button =
-    .title = הדפסה
-pdfjs-print-button-label = הדפסה
+    .title = Εκτύπωση
+pdfjs-print-button-label = Εκτύπωση
 pdfjs-save-button =
-    .title = שמירה
-pdfjs-save-button-label = שמירה
+    .title = Αποθήκευση
+pdfjs-save-button-label = Αποθήκευση
 # Used in Firefox for Android as a tooltip for the download button (“download” is a verb).
 pdfjs-download-button =
-    .title = הורדה
+    .title = Λήψη
 # Used in Firefox for Android as a label for the download button (“download” is a verb).
 # Length of the translation matters since we are in a mobile context, with limited screen estate.
-pdfjs-download-button-label = הורדה
+pdfjs-download-button-label = Λήψη
 pdfjs-bookmark-button =
-    .title = עמוד נוכחי (הצגת כתובת האתר מהעמוד הנוכחי)
-pdfjs-bookmark-button-label = עמוד נוכחי
+    .title = Τρέχουσα σελίδα (Προβολή URL από τρέχουσα σελίδα)
+pdfjs-bookmark-button-label = Τρέχουσα σελίδα
 
 ##  Secondary toolbar and context menu
 
 pdfjs-tools-button =
-    .title = כלים
-pdfjs-tools-button-label = כלים
+    .title = Εργαλεία
+pdfjs-tools-button-label = Εργαλεία
 pdfjs-first-page-button =
-    .title = מעבר לעמוד הראשון
-pdfjs-first-page-button-label = מעבר לעמוד הראשון
+    .title = Μετάβαση στην πρώτη σελίδα
+pdfjs-first-page-button-label = Μετάβαση στην πρώτη σελίδα
 pdfjs-last-page-button =
-    .title = מעבר לעמוד האחרון
-pdfjs-last-page-button-label = מעבר לעמוד האחרון
+    .title = Μετάβαση στην τελευταία σελίδα
+pdfjs-last-page-button-label = Μετάβαση στην τελευταία σελίδα
 pdfjs-page-rotate-cw-button =
-    .title = הטיה עם כיוון השעון
-pdfjs-page-rotate-cw-button-label = הטיה עם כיוון השעון
+    .title = Δεξιόστροφη περιστροφή
+pdfjs-page-rotate-cw-button-label = Δεξιόστροφη περιστροφή
 pdfjs-page-rotate-ccw-button =
-    .title = הטיה כנגד כיוון השעון
-pdfjs-page-rotate-ccw-button-label = הטיה כנגד כיוון השעון
+    .title = Αριστερόστροφη περιστροφή
+pdfjs-page-rotate-ccw-button-label = Αριστερόστροφη περιστροφή
 pdfjs-cursor-text-select-tool-button =
-    .title = הפעלת כלי בחירת טקסט
-pdfjs-cursor-text-select-tool-button-label = כלי בחירת טקסט
+    .title = Ενεργοποίηση εργαλείου επιλογής κειμένου
+pdfjs-cursor-text-select-tool-button-label = Εργαλείο επιλογής κειμένου
 pdfjs-cursor-hand-tool-button =
-    .title = הפעלת כלי היד
-pdfjs-cursor-hand-tool-button-label = כלי יד
+    .title = Ενεργοποίηση εργαλείου χεριού
+pdfjs-cursor-hand-tool-button-label = Εργαλείο χεριού
 pdfjs-scroll-page-button =
-    .title = שימוש בגלילת עמוד
-pdfjs-scroll-page-button-label = גלילת עמוד
+    .title = Χρήση κύλισης σελίδας
+pdfjs-scroll-page-button-label = Κύλιση σελίδας
 pdfjs-scroll-vertical-button =
-    .title = שימוש בגלילה אנכית
-pdfjs-scroll-vertical-button-label = גלילה אנכית
+    .title = Χρήση κάθετης κύλισης
+pdfjs-scroll-vertical-button-label = Κάθετη κύλιση
 pdfjs-scroll-horizontal-button =
-    .title = שימוש בגלילה אופקית
-pdfjs-scroll-horizontal-button-label = גלילה אופקית
+    .title = Χρήση οριζόντιας κύλισης
+pdfjs-scroll-horizontal-button-label = Οριζόντια κύλιση
 pdfjs-scroll-wrapped-button =
-    .title = שימוש בגלילה רציפה
-pdfjs-scroll-wrapped-button-label = גלילה רציפה
+    .title = Χρήση κυκλικής κύλισης
+pdfjs-scroll-wrapped-button-label = Κυκλική κύλιση
 pdfjs-spread-none-button =
-    .title = לא לצרף מפתחי עמודים
-pdfjs-spread-none-button-label = ללא מפתחים
+    .title = Να μη γίνει σύνδεση επεκτάσεων σελίδων
+pdfjs-spread-none-button-label = Χωρίς επεκτάσεις
 pdfjs-spread-odd-button =
-    .title = צירוף מפתחי עמודים שמתחילים בדפים עם מספרים אי־זוגיים
-pdfjs-spread-odd-button-label = מפתחים אי־זוגיים
+    .title = Σύνδεση επεκτάσεων σελίδων ξεκινώντας από τις μονές σελίδες
+pdfjs-spread-odd-button-label = Μονές επεκτάσεις
 pdfjs-spread-even-button =
-    .title = צירוף מפתחי עמודים שמתחילים בדפים עם מספרים זוגיים
-pdfjs-spread-even-button-label = מפתחים זוגיים
+    .title = Σύνδεση επεκτάσεων σελίδων ξεκινώντας από τις ζυγές σελίδες
+pdfjs-spread-even-button-label = Ζυγές επεκτάσεις
 
 ## Document properties dialog
 
 pdfjs-document-properties-button =
-    .title = מאפייני מסמך…
-pdfjs-document-properties-button-label = מאפייני מסמך…
-pdfjs-document-properties-file-name = שם קובץ:
-pdfjs-document-properties-file-size = גודל הקובץ:
+    .title = Ιδιότητες εγγράφου…
+pdfjs-document-properties-button-label = Ιδιότητες εγγράφου…
+pdfjs-document-properties-file-name = Όνομα αρχείου:
+pdfjs-document-properties-file-size = Μέγεθος αρχείου:
 # Variables:
 #   $kb (Number) - the PDF file size in kilobytes
 #   $b (Number) - the PDF file size in bytes
-pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } ק״ב ({ $b } בתים)
+pdfjs-document-properties-size-kb = { NUMBER($kb, maximumSignificantDigits: 3) } KB ({ $b } bytes)
 # Variables:
 #   $mb (Number) - the PDF file size in megabytes
 #   $b (Number) - the PDF file size in bytes
-pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } מ״ב ({ $b } בתים)
+pdfjs-document-properties-size-mb = { NUMBER($mb, maximumSignificantDigits: 3) } MB ({ $b } bytes)
 # Variables:
 #   $size_kb (Number) - the PDF file size in kilobytes
 #   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-kb = { $size_kb } ק״ב ({ $size_b } בתים)
+pdfjs-document-properties-kb = { $size_kb } KB ({ $size_b } bytes)
 # Variables:
 #   $size_mb (Number) - the PDF file size in megabytes
 #   $size_b (Number) - the PDF file size in bytes
-pdfjs-document-properties-mb = { $size_mb } מ״ב ({ $size_b } בתים)
-pdfjs-document-properties-title = כותרת:
-pdfjs-document-properties-author = מחבר:
-pdfjs-document-properties-subject = נושא:
-pdfjs-document-properties-keywords = מילות מפתח:
-pdfjs-document-properties-creation-date = תאריך יצירה:
-pdfjs-document-properties-modification-date = תאריך שינוי:
+pdfjs-document-properties-mb = { $size_mb } MB ({ $size_b } bytes)
+pdfjs-document-properties-title = Τίτλος:
+pdfjs-document-properties-author = Συγγραφέας:
+pdfjs-document-properties-subject = Θέμα:
+pdfjs-document-properties-keywords = Λέξεις-κλειδιά:
+pdfjs-document-properties-creation-date = Ημερομηνία δημιουργίας:
+pdfjs-document-properties-modification-date = Ημερομηνία τροποποίησης:
 # Variables:
 #   $dateObj (Date) - the creation/modification date and time of the PDF file
 pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
@@ -133,19 +133,19 @@ pdfjs-document-properties-date-time-string = { DATETIME($dateObj, dateStyle: "sh
 #   $date (Date) - the creation/modification date of the PDF file
 #   $time (Time) - the creation/modification time of the PDF file
 pdfjs-document-properties-date-string = { $date }, { $time }
-pdfjs-document-properties-creator = יוצר:
-pdfjs-document-properties-producer = יצרן PDF:
-pdfjs-document-properties-version = גרסת PDF:
-pdfjs-document-properties-page-count = מספר דפים:
-pdfjs-document-properties-page-size = גודל העמוד:
-pdfjs-document-properties-page-size-unit-inches = אינ׳
-pdfjs-document-properties-page-size-unit-millimeters = מ״מ
-pdfjs-document-properties-page-size-orientation-portrait = לאורך
-pdfjs-document-properties-page-size-orientation-landscape = לרוחב
+pdfjs-document-properties-creator = Δημιουργός:
+pdfjs-document-properties-producer = Παραγωγός PDF:
+pdfjs-document-properties-version = Έκδοση PDF:
+pdfjs-document-properties-page-count = Αριθμός σελίδων:
+pdfjs-document-properties-page-size = Μέγεθος σελίδας:
+pdfjs-document-properties-page-size-unit-inches = ίντσες
+pdfjs-document-properties-page-size-unit-millimeters = mm
+pdfjs-document-properties-page-size-orientation-portrait = κατακόρυφα
+pdfjs-document-properties-page-size-orientation-landscape = οριζόντια
 pdfjs-document-properties-page-size-name-a-three = A3
 pdfjs-document-properties-page-size-name-a-four = A4
-pdfjs-document-properties-page-size-name-letter = מכתב
-pdfjs-document-properties-page-size-name-legal = דף משפטי
+pdfjs-document-properties-page-size-name-letter = Επιστολή
+pdfjs-document-properties-page-size-name-legal = Τύπου Legal
 
 ## Variables:
 ##   $width (Number) - the width of the (current) page
@@ -161,99 +161,99 @@ pdfjs-document-properties-page-size-dimension-name-string = { $width } × { $hei
 
 # The linearization status of the document; usually called "Fast Web View" in
 # English locales of Adobe software.
-pdfjs-document-properties-linearized = תצוגת דף מהירה:
-pdfjs-document-properties-linearized-yes = כן
-pdfjs-document-properties-linearized-no = לא
-pdfjs-document-properties-close-button = סגירה
+pdfjs-document-properties-linearized = Ταχεία προβολή ιστού:
+pdfjs-document-properties-linearized-yes = Ναι
+pdfjs-document-properties-linearized-no = Όχι
+pdfjs-document-properties-close-button = Κλείσιμο
 
 ## Print
 
-pdfjs-print-progress-message = מסמך בהכנה להדפסה…
+pdfjs-print-progress-message = Προετοιμασία του εγγράφου για εκτύπωση…
 # Variables:
 #   $progress (Number) - percent value
 pdfjs-print-progress-percent = { $progress }%
-pdfjs-print-progress-close-button = ביטול
-pdfjs-printing-not-supported = אזהרה: הדפסה אינה נתמכת במלואה בדפדפן זה.
-pdfjs-printing-not-ready = אזהרה: מסמך ה־PDF לא נטען לחלוטין עד מצב שמאפשר הדפסה.
+pdfjs-print-progress-close-button = Ακύρωση
+pdfjs-printing-not-supported = Προειδοποίηση: Η εκτύπωση δεν υποστηρίζεται πλήρως από το πρόγραμμα περιήγησης.
+pdfjs-printing-not-ready = Προειδοποίηση: Το PDF δεν φορτώθηκε πλήρως για εκτύπωση.
 
 ## Tooltips and alt text for side panel toolbar buttons
 
 pdfjs-toggle-sidebar-button =
-    .title = הצגה/הסתרה של סרגל הצד
+    .title = (Απ)ενεργοποίηση πλαϊνής γραμμής
 pdfjs-toggle-sidebar-notification-button =
-    .title = החלפת תצוגת סרגל צד (מסמך שמכיל תוכן עניינים/קבצים מצורפים/שכבות)
-pdfjs-toggle-sidebar-button-label = הצגה/הסתרה של סרגל הצד
+    .title = (Απ)ενεργοποίηση πλαϊνής γραμμής (το έγγραφο περιέχει περίγραμμα/συνημμένα/επίπεδα)
+pdfjs-toggle-sidebar-button-label = (Απ)ενεργοποίηση πλαϊνής γραμμής
 pdfjs-document-outline-button =
-    .title = הצגת תוכן העניינים של המסמך (לחיצה כפולה כדי להרחיב או לצמצם את כל הפריטים)
-pdfjs-document-outline-button-label = תוכן העניינים של המסמך
+    .title = Εμφάνιση διάρθρωσης εγγράφου (διπλό κλικ για ανάπτυξη/σύμπτυξη όλων των στοιχείων)
+pdfjs-document-outline-button-label = Διάρθρωση εγγράφου
 pdfjs-attachments-button =
-    .title = הצגת צרופות
-pdfjs-attachments-button-label = צרופות
+    .title = Εμφάνιση συνημμένων
+pdfjs-attachments-button-label = Συνημμένα
 pdfjs-layers-button =
-    .title = הצגת שכבות (יש ללחוץ לחיצה כפולה כדי לאפס את כל השכבות למצב ברירת המחדל)
-pdfjs-layers-button-label = שכבות
+    .title = Εμφάνιση επιπέδων (διπλό κλικ για επαναφορά όλων των επιπέδων στην προεπιλεγμένη κατάσταση)
+pdfjs-layers-button-label = Επίπεδα
 pdfjs-thumbs-button =
-    .title = הצגת תצוגה מקדימה
-pdfjs-thumbs-button-label = תצוגה מקדימה
+    .title = Εμφάνιση μικρογραφιών
+pdfjs-thumbs-button-label = Μικρογραφίες
 pdfjs-current-outline-item-button =
-    .title = מציאת פריט תוכן העניינים הנוכחי
-pdfjs-current-outline-item-button-label = פריט תוכן העניינים הנוכחי
+    .title = Εύρεση τρέχοντος στοιχείου διάρθρωσης
+pdfjs-current-outline-item-button-label = Τρέχον στοιχείο διάρθρωσης
 pdfjs-findbar-button =
-    .title = חיפוש במסמך
-pdfjs-findbar-button-label = חיפוש
-pdfjs-additional-layers = שכבות נוספות
+    .title = Εύρεση στο έγγραφο
+pdfjs-findbar-button-label = Εύρεση
+pdfjs-additional-layers = Επιπρόσθετα επίπεδα
 
 ## Thumbnails panel item (tooltip and alt text for images)
 
 # Variables:
 #   $page (Number) - the page number
 pdfjs-thumb-page-title =
-    .title = עמוד { $page }
+    .title = Σελίδα { $page }
 # Variables:
 #   $page (Number) - the page number
 pdfjs-thumb-page-canvas =
-    .aria-label = תצוגה מקדימה של עמוד { $page }
+    .aria-label = Μικρογραφία σελίδας { $page }
 
 ## Find panel button title and messages
 
 pdfjs-find-input =
-    .title = חיפוש
-    .placeholder = חיפוש במסמך…
+    .title = Εύρεση
+    .placeholder = Εύρεση στο έγγραφο…
 pdfjs-find-previous-button =
-    .title = מציאת המופע הקודם של הביטוי
-pdfjs-find-previous-button-label = קודם
+    .title = Εύρεση της προηγούμενης εμφάνισης της φράσης
+pdfjs-find-previous-button-label = Προηγούμενο
 pdfjs-find-next-button =
-    .title = מציאת המופע הבא של הביטוי
-pdfjs-find-next-button-label = הבא
-pdfjs-find-highlight-checkbox = הדגשת הכול
-pdfjs-find-match-case-checkbox-label = התאמת אותיות
-pdfjs-find-match-diacritics-checkbox-label = התאמה דיאקריטית
-pdfjs-find-entire-word-checkbox-label = מילים שלמות
-pdfjs-find-reached-top = הגיע לראש הדף, ממשיך מלמטה
-pdfjs-find-reached-bottom = הגיע לסוף הדף, ממשיך מלמעלה
+    .title = Εύρεση της επόμενης εμφάνισης της φράσης
+pdfjs-find-next-button-label = Επόμενο
+pdfjs-find-highlight-checkbox = Επισήμανση όλων
+pdfjs-find-match-case-checkbox-label = Συμφωνία πεζών/κεφαλαίων
+pdfjs-find-match-diacritics-checkbox-label = Αντιστοίχιση διακριτικών
+pdfjs-find-entire-word-checkbox-label = Ολόκληρες λέξεις
+pdfjs-find-reached-top = Φτάσατε στην αρχή του εγγράφου, συνέχεια από το τέλος
+pdfjs-find-reached-bottom = Φτάσατε στο τέλος του εγγράφου, συνέχεια από την αρχή
 # Variables:
 #   $current (Number) - the index of the currently active find result
 #   $total (Number) - the total number of matches in the document
 pdfjs-find-match-count =
     { $total ->
-        [one] { $current } מתוך { $total } תוצאות
-       *[other] { $current } מתוך { $total } תוצאות
+        [one] { $current } από { $total } αντιστοιχία
+       *[other] { $current } από { $total } αντιστοιχίες
     }
 # Variables:
 #   $limit (Number) - the maximum number of matches
 pdfjs-find-match-count-limit =
     { $limit ->
-        [one] יותר מתוצאה אחת
-       *[other] יותר מ־{ $limit } תוצאות
+        [one] Περισσότερες από { $limit } αντιστοιχία
+       *[other] Περισσότερες από { $limit } αντιστοιχίες
     }
-pdfjs-find-not-found = הביטוי לא נמצא
+pdfjs-find-not-found = Η φράση δεν βρέθηκε
 
 ## Predefined zoom values
 
-pdfjs-page-scale-width = רוחב העמוד
-pdfjs-page-scale-fit = התאמה לעמוד
-pdfjs-page-scale-auto = מרחק מתצוגה אוטומטי
-pdfjs-page-scale-actual = גודל אמיתי
+pdfjs-page-scale-width = Πλάτος σελίδας
+pdfjs-page-scale-fit = Μέγεθος σελίδας
+pdfjs-page-scale-auto = Αυτόματο ζουμ
+pdfjs-page-scale-actual = Πραγματικό μέγεθος
 # Variables:
 #   $scale (Number) - percent value for page scale
 pdfjs-page-scale-percent = { $scale }%
@@ -263,15 +263,15 @@ pdfjs-page-scale-percent = { $scale }%
 # Variables:
 #   $page (Number) - the page number
 pdfjs-page-landmark =
-    .aria-label = עמוד { $page }
+    .aria-label = Σελίδα { $page }
 
 ## Loading indicator messages
 
-pdfjs-loading-error = אירעה שגיאה בעת טעינת ה־PDF.
-pdfjs-invalid-file-error = קובץ PDF פגום או לא תקין.
-pdfjs-missing-file-error = קובץ PDF חסר.
-pdfjs-unexpected-response-error = תגובת שרת לא צפויה.
-pdfjs-rendering-error = אירעה שגיאה בעת עיבוד הדף.
+pdfjs-loading-error = Προέκυψε σφάλμα κατά τη φόρτωση του PDF.
+pdfjs-invalid-file-error = Μη έγκυρο ή κατεστραμμένο αρχείο PDF.
+pdfjs-missing-file-error = Λείπει αρχείο PDF.
+pdfjs-unexpected-response-error = Μη αναμενόμενη απόκριση από το διακομιστή.
+pdfjs-rendering-error = Προέκυψε σφάλμα κατά την εμφάνιση της σελίδας.
 
 ## Annotations
 
@@ -285,211 +285,211 @@ pdfjs-annotation-date-string = { $date }, { $time }
 # (32000-1:2008 Table 169 – Annotation types).
 # Some common types are e.g.: "Check", "Text", "Comment", "Note"
 pdfjs-text-annotation-type =
-    .alt = [הערת { $type }]
+    .alt = [Σχόλιο «{ $type }»]
 # Variables:
 #   $dateObj (Date) - the modification date and time of the annotation
 pdfjs-annotation-date-time-string = { DATETIME($dateObj, dateStyle: "short", timeStyle: "medium") }
 
 ## Password
 
-pdfjs-password-label = נא להכניס את הססמה לפתיחת קובץ PDF זה.
-pdfjs-password-invalid = ססמה שגויה. נא לנסות שנית.
-pdfjs-password-ok-button = אישור
-pdfjs-password-cancel-button = ביטול
-pdfjs-web-fonts-disabled = גופני רשת מנוטרלים: לא ניתן להשתמש בגופני PDF מוטבעים.
+pdfjs-password-label = Εισαγάγετε τον κωδικό πρόσβασης για να ανοίξετε αυτό το αρχείο PDF.
+pdfjs-password-invalid = Μη έγκυρος κωδικός πρόσβασης. Παρακαλώ δοκιμάστε ξανά.
+pdfjs-password-ok-button = OK
+pdfjs-password-cancel-button = Ακύρωση
+pdfjs-web-fonts-disabled = Οι γραμματοσειρές ιστού είναι ανενεργές: δεν είναι δυνατή η χρήση των ενσωματωμένων γραμματοσειρών PDF.
 
 ## Editing
 
 pdfjs-editor-free-text-button =
-    .title = טקסט
-pdfjs-editor-free-text-button-label = טקסט
+    .title = Κείμενο
+pdfjs-editor-free-text-button-label = Κείμενο
 pdfjs-editor-ink-button =
-    .title = ציור
-pdfjs-editor-ink-button-label = ציור
+    .title = Σχέδιο
+pdfjs-editor-ink-button-label = Σχέδιο
 pdfjs-editor-stamp-button =
-    .title = הוספה או עריכת תמונות
-pdfjs-editor-stamp-button-label = הוספה או עריכת תמונות
+    .title = Προσθήκη ή επεξεργασία εικόνων
+pdfjs-editor-stamp-button-label = Προσθήκη ή επεξεργασία εικόνων
 pdfjs-editor-highlight-button =
-    .title = סימון
-pdfjs-editor-highlight-button-label = סימון
+    .title = Επισήμανση
+pdfjs-editor-highlight-button-label = Επισήμανση
 pdfjs-highlight-floating-button1 =
-    .title = סימון
-    .aria-label = סימון
-pdfjs-highlight-floating-button-label = סימון
+    .title = Επισήμανση
+    .aria-label = Επισήμανση
+pdfjs-highlight-floating-button-label = Επισήμανση
 
 ## Remove button for the various kind of editor.
 
 pdfjs-editor-remove-ink-button =
-    .title = הסרת ציור
+    .title = Αφαίρεση σχεδίου
 pdfjs-editor-remove-freetext-button =
-    .title = הסרת טקסט
+    .title = Αφαίρεση κειμένου
 pdfjs-editor-remove-stamp-button =
-    .title = הסרת תמונה
+    .title = Αφαίρεση εικόνας
 pdfjs-editor-remove-highlight-button =
-    .title = הסרת הדגשה
+    .title = Αφαίρεση επισήμανσης
 
 ##
 
 # Editor Parameters
-pdfjs-editor-free-text-color-input = צבע
-pdfjs-editor-free-text-size-input = גודל
-pdfjs-editor-ink-color-input = צבע
-pdfjs-editor-ink-thickness-input = עובי
-pdfjs-editor-ink-opacity-input = אטימות
+pdfjs-editor-free-text-color-input = Χρώμα
+pdfjs-editor-free-text-size-input = Μέγεθος
+pdfjs-editor-ink-color-input = Χρώμα
+pdfjs-editor-ink-thickness-input = Πάχος
+pdfjs-editor-ink-opacity-input = Αδιαφάνεια
 pdfjs-editor-stamp-add-image-button =
-    .title = הוספת תמונה
-pdfjs-editor-stamp-add-image-button-label = הוספת תמונה
+    .title = Προσθήκη εικόνας
+pdfjs-editor-stamp-add-image-button-label = Προσθήκη εικόνας
 # This refers to the thickness of the line used for free highlighting (not bound to text)
-pdfjs-editor-free-highlight-thickness-input = עובי
+pdfjs-editor-free-highlight-thickness-input = Πάχος
 pdfjs-editor-free-highlight-thickness-title =
-    .title = שינוי עובי בעת הדגשת פריטים שאינם טקסט
+    .title = Αλλαγή πάχους κατά την επισήμανση στοιχείων εκτός κειμένου
 # .default-content is used as a placeholder in an empty text editor.
 pdfjs-free-text2 =
-    .aria-label = עורך טקסט
-    .default-content = נא להתחיל להקליד…
+    .aria-label = Επεξεργασία κειμένου
+    .default-content = Ξεκινήστε την πληκτρολόγηση…
 pdfjs-free-text =
-    .aria-label = עורך טקסט
-pdfjs-free-text-default-content = להתחיל להקליד…
+    .aria-label = Επεξεργασία κειμένου
+pdfjs-free-text-default-content = Ξεκινήστε να πληκτρολογείτε…
 pdfjs-ink =
-    .aria-label = עורך ציור
+    .aria-label = Επεξεργασία σχεδίων
 pdfjs-ink-canvas =
-    .aria-label = תמונה שנוצרה על־ידי משתמש
+    .aria-label = Εικόνα από τον χρήστη
 
 ## Alt-text dialog
 
-pdfjs-editor-alt-text-button-label = טקסט חלופי
+pdfjs-editor-alt-text-button-label = Εναλλακτικό κείμενο
 pdfjs-editor-alt-text-edit-button =
-    .aria-label = עריכת טקסט חלופי
-pdfjs-editor-alt-text-edit-button-label = עריכת טקסט חלופי
-pdfjs-editor-alt-text-dialog-label = בחירת אפשרות
-pdfjs-editor-alt-text-dialog-description = טקסט חלופי עוזר כשאנשים לא יכולים לראות את התמונה או כשהיא לא נטענת.
-pdfjs-editor-alt-text-add-description-label = הוספת תיאור
-pdfjs-editor-alt-text-add-description-description = כדאי לתאר במשפט אחד או שניים את הנושא, התפאורה או הפעולות.
-pdfjs-editor-alt-text-mark-decorative-label = סימון כדקורטיבי
-pdfjs-editor-alt-text-mark-decorative-description = זה משמש לתמונות נוי, כמו גבולות או סימני מים.
-pdfjs-editor-alt-text-cancel-button = ביטול
-pdfjs-editor-alt-text-save-button = שמירה
-pdfjs-editor-alt-text-decorative-tooltip = מסומן כדקורטיבי
+    .aria-label = Επεξεργασία εναλλακτικού κειμένου
+pdfjs-editor-alt-text-edit-button-label = Επεξεργασία εναλλακτικού κειμένου
+pdfjs-editor-alt-text-dialog-label = Διαλέξτε μια επιλογή
+pdfjs-editor-alt-text-dialog-description = Το εναλλακτικό κείμενο είναι χρήσιμο όταν οι άνθρωποι δεν μπορούν να δουν την εικόνα ή όταν αυτή δεν φορτώνεται.
+pdfjs-editor-alt-text-add-description-label = Προσθήκη περιγραφής
+pdfjs-editor-alt-text-add-description-description = Στοχεύστε σε μία ή δύο προτάσεις που περιγράφουν το θέμα, τη ρύθμιση ή τις ενέργειες.
+pdfjs-editor-alt-text-mark-decorative-label = Επισήμανση ως διακοσμητικό
+pdfjs-editor-alt-text-mark-decorative-description = Χρησιμοποιείται για διακοσμητικές εικόνες, όπως περιγράμματα ή υδατογραφήματα.
+pdfjs-editor-alt-text-cancel-button = Ακύρωση
+pdfjs-editor-alt-text-save-button = Αποθήκευση
+pdfjs-editor-alt-text-decorative-tooltip = Επισημασμένο ως διακοσμητικό
 # .placeholder: This is a placeholder for the alt text input area
 pdfjs-editor-alt-text-textarea =
-    .placeholder = לדוגמה, ״גבר צעיר מתיישב ליד שולחן לאכול ארוחה״
+    .placeholder = Για παράδειγμα, «Ένας νεαρός άνδρας κάθεται σε ένα τραπέζι για να φάει ένα γεύμα»
 # Alternative text (alt text) helps when people can't see the image.
 pdfjs-editor-alt-text-button =
-    .aria-label = טקסט חלופי
+    .aria-label = Εναλλακτικό κείμενο
 
 ## Editor resizers
 ## This is used in an aria label to help to understand the role of the resizer.
 
-pdfjs-editor-resizer-label-top-left = פינה שמאלית עליונה - שינוי גודל
-pdfjs-editor-resizer-label-top-middle = למעלה באמצע - שינוי גודל
-pdfjs-editor-resizer-label-top-right = פינה ימנית עליונה - שינוי גודל
-pdfjs-editor-resizer-label-middle-right = ימינה באמצע - שינוי גודל
-pdfjs-editor-resizer-label-bottom-right = פינה ימנית תחתונה - שינוי גודל
-pdfjs-editor-resizer-label-bottom-middle = למטה באמצע - שינוי גודל
-pdfjs-editor-resizer-label-bottom-left = פינה שמאלית תחתונה - שינוי גודל
-pdfjs-editor-resizer-label-middle-left = שמאלה באמצע - שינוי גודל
+pdfjs-editor-resizer-label-top-left = Επάνω αριστερή γωνία — αλλαγή μεγέθους
+pdfjs-editor-resizer-label-top-middle = Μέσο επάνω πλευράς — αλλαγή μεγέθους
+pdfjs-editor-resizer-label-top-right = Επάνω δεξιά γωνία — αλλαγή μεγέθους
+pdfjs-editor-resizer-label-middle-right = Μέσο δεξιάς πλευράς — αλλαγή μεγέθους
+pdfjs-editor-resizer-label-bottom-right = Κάτω δεξιά γωνία — αλλαγή μεγέθους
+pdfjs-editor-resizer-label-bottom-middle = Μέσο κάτω πλευράς — αλλαγή μεγέθους
+pdfjs-editor-resizer-label-bottom-left = Κάτω αριστερή γωνία — αλλαγή μεγέθους
+pdfjs-editor-resizer-label-middle-left = Μέσο αριστερής πλευράς — αλλαγή μεγέθους
 pdfjs-editor-resizer-top-left =
-    .aria-label = פינה שמאלית עליונה - שינוי גודל
+    .aria-label = Επάνω αριστερή γωνία — αλλαγή μεγέθους
 pdfjs-editor-resizer-top-middle =
-    .aria-label = למעלה באמצע - שינוי גודל
+    .aria-label = Μέσο επάνω πλευράς — αλλαγή μεγέθους
 pdfjs-editor-resizer-top-right =
-    .aria-label = פינה ימנית עליונה - שינוי גודל
+    .aria-label = Επάνω δεξιά γωνία — αλλαγή μεγέθους
 pdfjs-editor-resizer-middle-right =
-    .aria-label = ימינה באמצע - שינוי גודל
+    .aria-label = Μέσο δεξιάς πλευράς — αλλαγή μεγέθους
 pdfjs-editor-resizer-bottom-right =
-    .aria-label = פינה ימנית תחתונה - שינוי גודל
+    .aria-label = Κάτω δεξιά γωνία — αλλαγή μεγέθους
 pdfjs-editor-resizer-bottom-middle =
-    .aria-label = למטה באמצע - שינוי גודל
+    .aria-label = Μέσο κάτω πλευράς — αλλαγή μεγέθους
 pdfjs-editor-resizer-bottom-left =
-    .aria-label = פינה שמאלית תחתונה - שינוי גודל
+    .aria-label = Κάτω αριστερή γωνία — αλλαγή μεγέθους
 pdfjs-editor-resizer-middle-left =
-    .aria-label = שמאלה באמצע - שינוי גודל
+    .aria-label = Μέσο αριστερής πλευράς — αλλαγή μεγέθους
 
 ## Color picker
 
 # This means "Color used to highlight text"
-pdfjs-editor-highlight-colorpicker-label = צבע הדגשה
+pdfjs-editor-highlight-colorpicker-label = Χρώμα επισήμανσης
 pdfjs-editor-colorpicker-button =
-    .title = שינוי צבע
+    .title = Αλλαγή χρώματος
 pdfjs-editor-colorpicker-dropdown =
-    .aria-label = בחירת צבע
+    .aria-label = Επιλογές χρωμάτων
 pdfjs-editor-colorpicker-yellow =
-    .title = צהוב
+    .title = Κίτρινο
 pdfjs-editor-colorpicker-green =
-    .title = ירוק
+    .title = Πράσινο
 pdfjs-editor-colorpicker-blue =
-    .title = כחול
+    .title = Μπλε
 pdfjs-editor-colorpicker-pink =
-    .title = ורוד
+    .title = Ροζ
 pdfjs-editor-colorpicker-red =
-    .title = אדום
+    .title = Κόκκινο
 
 ## Show all highlights
 ## This is a toggle button to show/hide all the highlights.
 
-pdfjs-editor-highlight-show-all-button-label = הצגת הכול
+pdfjs-editor-highlight-show-all-button-label = Εμφάνιση όλων
 pdfjs-editor-highlight-show-all-button =
-    .title = הצגת הכול
+    .title = Εμφάνιση όλων
 
 ## New alt-text dialog
 ## Group note for entire feature: Alternative text (alt text) helps when people can't see the image. This feature includes a tool to create alt text automatically using an AI model that works locally on the user's device to preserve privacy.
 
 # Modal header positioned above a text box where users can edit the alt text.
-pdfjs-editor-new-alt-text-dialog-edit-label = עריכת טקסט חלופי (תיאור תמונה)
+pdfjs-editor-new-alt-text-dialog-edit-label = Επεξεργασία εναλλακτικού κειμένου (περιγραφή εικόνας)
 # Modal header positioned above a text box where users can add the alt text.
-pdfjs-editor-new-alt-text-dialog-add-label = הוספת טקסט חלופי (תיאור תמונה)
+pdfjs-editor-new-alt-text-dialog-add-label = Προσθήκη εναλλακτικού κειμένου (περιγραφή εικόνας)
 pdfjs-editor-new-alt-text-textarea =
-    .placeholder = נא לכתוב את התיאור שלך כאן…
+    .placeholder = Γράψτε την περιγραφή σας εδώ…
 # This text refers to the alt text box above this description. It offers a definition of alt text.
-pdfjs-editor-new-alt-text-description = תיאור קצר לאנשים שאינם יכולים לראות את התמונה או כאשר התמונה אינה נטענת.
+pdfjs-editor-new-alt-text-description = Σύντομη περιγραφή για άτομα που δεν μπορούν να δουν την εικόνα ή όταν η εικόνα δεν φορτώνεται.
 # This is a required legal disclaimer that refers to the automatically created text inside the alt text box above this text. It disappears if the text is edited by a human.
-pdfjs-editor-new-alt-text-disclaimer1 = טקסט חלופי זה נוצר באופן אוטומטי ועשוי להיות לא מדויק.
-pdfjs-editor-new-alt-text-disclaimer-learn-more-url = מידע נוסף
-pdfjs-editor-new-alt-text-create-automatically-button-label = יצירת טקסט חלופי באופן אוטומטי
-pdfjs-editor-new-alt-text-not-now-button = לא כעת
-pdfjs-editor-new-alt-text-error-title = לא ניתן היה ליצור טקסט חלופי באופן אוטומטי
-pdfjs-editor-new-alt-text-error-description = נא לכתוב טקסט חלופי משלך או לנסות שוב מאוחר יותר.
-pdfjs-editor-new-alt-text-error-close-button = סגירה
+pdfjs-editor-new-alt-text-disclaimer1 = Αυτό το εναλλακτικό κείμενο δημιουργήθηκε αυτόματα και ενδέχεται να είναι ανακριβές.
+pdfjs-editor-new-alt-text-disclaimer-learn-more-url = Μάθετε περισσότερα
+pdfjs-editor-new-alt-text-create-automatically-button-label = Αυτόματη δημιουργία εναλλακτικού κειμένου
+pdfjs-editor-new-alt-text-not-now-button = Όχι τώρα
+pdfjs-editor-new-alt-text-error-title = Δεν ήταν δυνατή η αυτόματη δημιουργία εναλλακτικού κειμένου
+pdfjs-editor-new-alt-text-error-description = Γράψτε το δικό σας εναλλακτικό κείμενο ή δοκιμάστε ξανά αργότερα.
+pdfjs-editor-new-alt-text-error-close-button = Κλείσιμο
 # Variables:
 #   $totalSize (Number) - the total size (in MB) of the AI model.
 #   $downloadedSize (Number) - the downloaded size (in MB) of the AI model.
 #   $percent (Number) - the percentage of the downloaded size.
-pdfjs-editor-new-alt-text-ai-model-downloading-progress = בתהליך הורדת מודל AI של טקסט חלופי ({ $downloadedSize } מתוך { $totalSize } מ״ב)
-    .aria-valuetext = בתהליך הורדת מודל AI של טקסט חלופי ({ $downloadedSize } מתוך { $totalSize } מ״ב)
+pdfjs-editor-new-alt-text-ai-model-downloading-progress = Λήψη μοντέλου AI εναλλακτικού κειμένου ({ $downloadedSize } από { $totalSize } MB)
+    .aria-valuetext = Λήψη μοντέλου AI εναλλακτικού κειμένου ({ $downloadedSize } από { $totalSize } MB)
 # This is a button that users can click to edit the alt text they have already added.
 pdfjs-editor-new-alt-text-added-button =
-    .aria-label = נוסף טקסט חלופי
-pdfjs-editor-new-alt-text-added-button-label = נוסף טקסט חלופי
+    .aria-label = Προστέθηκε εναλλακτικό κείμενο
+pdfjs-editor-new-alt-text-added-button-label = Προστέθηκε εναλλακτικό κείμενο
 # This is a button that users can click to open the alt text editor and add alt text when it is not present.
 pdfjs-editor-new-alt-text-missing-button =
-    .aria-label = חסר טקסט חלופי
-pdfjs-editor-new-alt-text-missing-button-label = חסר טקסט חלופי
+    .aria-label = Απουσία εναλλακτικού κειμένου
+pdfjs-editor-new-alt-text-missing-button-label = Απουσία εναλλακτικού κειμένου
 # This is a button that opens up the alt text modal where users should review the alt text that was automatically generated.
 pdfjs-editor-new-alt-text-to-review-button =
-    .aria-label = סקירת טקסט חלופי
-pdfjs-editor-new-alt-text-to-review-button-label = סקירת טקסט חלופי
+    .aria-label = Έλεγχος εναλλακτικού κειμένου
+pdfjs-editor-new-alt-text-to-review-button-label = Έλεγχος εναλλακτικού κειμένου
 # "Created automatically" is a prefix that will be added to the beginning of any alt text that has been automatically generated. After the colon, the user will see/hear the actual alt text description. If the alt text has been edited by a human, this prefix will not appear.
 # Variables:
 #   $generatedAltText (String) - the generated alt-text.
-pdfjs-editor-new-alt-text-generated-alt-text-with-disclaimer = נוצר באופן אוטומטי: { $generatedAltText }
+pdfjs-editor-new-alt-text-generated-alt-text-with-disclaimer = Αυτόματη δημιουργία: { $generatedAltText }
 
 ## Image alt-text settings
 
 pdfjs-image-alt-text-settings-button =
-    .title = הגדרות טקסט חלופי של תמונה
-pdfjs-image-alt-text-settings-button-label = הגדרות טקסט חלופי של תמונה
-pdfjs-editor-alt-text-settings-dialog-label = הגדרות טקסט חלופי של תמונה
-pdfjs-editor-alt-text-settings-automatic-title = טקסט חלופי אוטומטי
-pdfjs-editor-alt-text-settings-create-model-button-label = יצירת טקסט חלופי באופן אוטומטי
-pdfjs-editor-alt-text-settings-create-model-description = הצעת תיאורים כדי לסייע לאנשים שאינם יכולים לראות את התמונה או כאשר התמונה אינה נטענת.
+    .title = Ρυθμίσεις εναλλακτικού κειμένου εικόνας
+pdfjs-image-alt-text-settings-button-label = Ρυθμίσεις εναλλακτικού κειμένου εικόνας
+pdfjs-editor-alt-text-settings-dialog-label = Ρυθμίσεις εναλλακτικού κειμένου εικόνας
+pdfjs-editor-alt-text-settings-automatic-title = Αυτόματο εναλλακτικό κείμενο
+pdfjs-editor-alt-text-settings-create-model-button-label = Αυτόματη δημιουργία εναλλακτικού κειμένου
+pdfjs-editor-alt-text-settings-create-model-description = Προτείνει περιγραφές για άτομα που δεν μπορούν να δουν την εικόνα ή όταν η εικόνα δεν φορτώνεται.
 # Variables:
 #   $totalSize (Number) - the total size (in MB) of the AI model.
-pdfjs-editor-alt-text-settings-download-model-label = מודל AI לטקסט חלופי ({ $totalSize } מ״ב)
-pdfjs-editor-alt-text-settings-ai-model-description = פועל באופן מקומי במכשיר שלך כך שהנתונים שלך נשארים פרטיים. נדרש עבור טקסט חלופי אוטומטי.
-pdfjs-editor-alt-text-settings-delete-model-button = מחיקה
-pdfjs-editor-alt-text-settings-download-model-button = הורדה
-pdfjs-editor-alt-text-settings-downloading-model-button = בהורדה…
-pdfjs-editor-alt-text-settings-editor-title = עורך טקסט חלופי
-pdfjs-editor-alt-text-settings-show-dialog-button-label = הצגת עורך טקסט חלופי מיד בעת הוספת תמונה
-pdfjs-editor-alt-text-settings-show-dialog-description = מסייע לך לוודא שלכל התמונות שלך יש טקסט חלופי.
-pdfjs-editor-alt-text-settings-close-button = סגירה
+pdfjs-editor-alt-text-settings-download-model-label = Μοντέλο AI εναλλακτικού κειμένου ({ $totalSize } MB)
+pdfjs-editor-alt-text-settings-ai-model-description = Εκτελείται τοπικά στη συσκευή σας, ώστε τα δεδομένα σας να παραμένουν ιδιωτικά. Απαιτείται για τη δημιουργία του αυτόματου εναλλακτικού κειμένου.
+pdfjs-editor-alt-text-settings-delete-model-button = Διαγραφή
+pdfjs-editor-alt-text-settings-download-model-button = Λήψη
+pdfjs-editor-alt-text-settings-downloading-model-button = Λήψη…
+pdfjs-editor-alt-text-settings-editor-title = Επεξεργασία εναλλακτικού κειμένου
+pdfjs-editor-alt-text-settings-show-dialog-button-label = Άμεση εμφάνιση της επεξεργασίας εναλλακτικού κειμένου κατά την προσθήκη εικόνας
+pdfjs-editor-alt-text-settings-show-dialog-description = Σας βοηθά να βεβαιωθείτε ότι όλες οι εικόνες σας έχουν εναλλακτικό κείμενο.
+pdfjs-editor-alt-text-settings-close-button = Κλείσιμο
